@@ -1,0 +1,526 @@
+{
+    "tools": [
+        {
+            "title": "XnView",
+            "url": "https://www.xnview.com/",
+            "description": "Image viewer.",
+            "tags": [
+                "utility",
+                "favorite",
+                "linux",
+                "macos",
+                "windows"
+            ]
+        },
+        {
+            "title": "XMake",
+            "url": "https://github.com/xmake-io/xmake/",
+            "description": "Cross-platform C++ build system.",
+            "tags": [
+                "utility",
+                "build",
+                "linux",
+                "macos",
+                "windows"
+            ]
+        },
+        {
+            "title": "WinDirStat",
+            "url": "https://github.com/mikr/whatstyle/",
+            "description": "Disk usage statistics viewer and cleanup assistant.",
+            "tags": [
+                "utility",
+                "favorite",
+                "windows"
+            ]
+        },
+        {
+            "title": "What Style",
+            "url": "https://github.com/mikr/whatstyle/",
+            "description": "Python utility generating a clang-format configuration from existing codebase.",
+            "tags": [
+                "utility",
+                "linux",
+                "macos",
+                "windows"
+            ]
+        },
+        {
+            "title": "Visual Studio - Nifty Perforce",
+            "url": "https://github.com/belkiss/niftyplugins",
+            "description": "Perforce integration for Visual Studio.",
+            "tags": [
+                "ide",
+                "plugin",
+                "windows"
+            ]
+        },
+        {
+            "title": "Visual Studio - Disasmo",
+            "url": "https://github.com/EgorBo/Disasmo/",
+            "description": "Dissasembly viewer for Visual Studio.",
+            "tags": [
+                "ide",
+                "plugin",
+                "windows"
+            ]
+        },
+        {
+            "title": "Visual Studio Code",
+            "url": "https://code.visualstudio.com/",
+            "description": "Electron based extensible IDE.",
+            "tags": [
+                "ide",
+                "favorite",
+                "linux",
+                "macos",
+                "windows"
+            ]
+        },
+        {
+            "title": "Visual Studio",
+            "url": "https://visualstudio.microsoft.com",
+            "description": "IDE for various languages (C/C++, C#, etc.).",
+            "tags": [
+                "ide",
+                "favorite",
+                "windows"
+            ]
+        },
+        {
+            "title": "VBinDiff",
+            "url": "https://www.cjmweb.net/vbindiff/",
+            "description": "Binary diff tool.",
+            "tags": [
+                "utility",
+                "linux",
+                "windows"
+            ]
+        },
+        {
+            "title": "Tracy",
+            "url": "https://github.com/wolfpld/tracy/",
+            "description": "CPU profiler supporting instrumentation and sampling.",
+            "tags": [
+                "profiling",
+                "cpu",
+                "favorite",
+                "linux",
+                "windows"
+            ]
+        },
+        {
+            "title": "Windows SDK",
+            "url": "https://developer.microsoft.com/en-us/windows/downloads/windows-sdk/",
+            "description": "Collection of tools, headers and libraries to build Windows applications.",
+            "tags": [
+                "favorite",
+                "utility",
+                "windows"
+            ]
+        },
+        {
+            "title": "Total Commander",
+            "url": "https://www.ghisler.com",
+            "description": "File manager.",
+            "tags": [
+                "favorite",
+                "utility",
+                "windows"
+            ]
+        },
+        {
+            "title": "Sys Internals",
+            "url": "https://learn.microsoft.com/en-us/sysinternals/",
+            "description": "Suit of Windows system tools (e.g. ProcMon, DLL dependency walker, etc.).",
+            "tags": [
+                "utility",
+                "favorite",
+                "windows"
+            ]
+        },
+        {
+            "title": "Superluminal",
+            "url": "https://superluminal.eu/",
+            "description": "CPU profiler with sampling and instrumentation support.",
+            "tags": [
+                "profiling",
+                "cpu",
+                "windows"
+            ]
+        },
+        {
+            "title": "Tmux",
+            "url": "https://github.com/tmux/tmux",
+            "description": "Terminal multiplexer",
+            "tags": [
+                "favorite",
+                "utility",
+                "linux",
+                "macos"
+            ]
+        },
+        {
+            "title": "Ghostty",
+            "url": "https://ghostty.org",
+            "description": "GPU accelerated terminal emulator.",
+            "tags": [
+                "favorite",
+                "utility",
+                "linux",
+                "macos"
+            ]
+        },
+        {
+            "title": "Speed Crunch",
+            "url": "https://heldercorreia.bitbucket.io/speedcrunch/",
+            "description": "Scientific calculator.",
+            "tags": [
+                "favorite",
+                "utility",
+                "linux",
+                "macos",
+                "windows"
+            ]
+        },
+        {
+            "title": "Sharpmake",
+            "url": "https://github.com/ubisoft/Sharpmake/",
+            "description": "Cross-platform C++ build system from Ubisoft.",
+            "tags": [
+                "build",
+                "utility",
+                "linux",
+                "macos",
+                "windows"
+            ]
+        },
+        {
+            "title": "SCons",
+            "url": "https://scons.org/",
+            "description": "Cross-platform C++ build system.",
+            "tags": [
+                "build",
+                "utility",
+                "linux",
+                "macos",
+                "windows"
+            ]
+        },
+        {
+            "title": "Rufus",
+            "url": "https://rufus.ie/",
+            "description": "Bootable USB image creation.",
+            "tags": [
+                "utility",
+                "windows"
+            ]
+        },
+        {
+            "title": "RenderDoc",
+            "url": "https://github.com/Celtoys/Remotery",
+            "description": "GPU debugger.",
+            "tags": [
+                "favorite",
+                "debugger",
+                "profiling",
+                "gpu",
+                "linux",
+                "windows"
+            ]
+        },
+        {
+            "title": "Remotery",
+            "url": "https://github.com/Celtoys/Remotery",
+            "description": "Lightweight intrumented CPU profiler.",
+            "tags": [
+                "profiling",
+                "cpu",
+                "macos",
+                "linux",
+                "windows"
+            ]
+        },
+        {
+            "title": "RAD Telemetry",
+            "url": "https://www.radgametools.com/telemetry.htm",
+            "description": "Instrumented CPU profiler.",
+            "tags": [
+                "profiling",
+                "cpu",
+                "linux",
+                "windows"
+            ]
+        },
+        {
+            "title": "RAD Debugger",
+            "url": "https://github.com/EpicGames/raddebugger",
+            "description": "Debugger.",
+            "tags": [
+                "debugger",
+                "cpu",
+                "linux",
+                "windows"
+            ]
+        },
+        {
+            "title": "Python",
+            "url": "https://www.python.org/",
+            "description": "Cross platform scripting language.",
+            "tags": [
+                "favorite",
+                "utility",
+                "linux",
+                "macos",
+                "windows"
+            ]
+        },
+        {
+            "title": "Pix",
+            "url": "https://devblogs.microsoft.com/pix/",
+            "description": "CPU/GPU profiler with sampling and instrumentation support.",
+            "tags": [
+                "profiling",
+                "debugger",
+                "cpu",
+                "gpu",
+                "windows"
+            ]
+        },
+        {
+            "title": "Perforce",
+            "url": "https://www.perforce.com",
+            "description": "Cross-platform version control system.",
+            "tags": [
+                "vcs",
+                "macos",
+                "linux",
+                "windows"
+            ]
+        },
+        {
+            "title": "Orbit",
+            "url": "https://github.com/google/orbit/",
+            "description": "CPU profiler supporting instrumention and sampling.",
+            "tags": [
+                "profiling",
+                "cpu",
+                "linux",
+                "windows"
+            ]
+        },
+        {
+            "title": "Open Broadcaster Software (OBS)",
+            "url": "https://renderdoc.org/",
+            "description": "Video recording and streaming.",
+            "tags": [
+                "utility",
+                "memory",
+                "windows"
+            ]
+        },
+        {
+            "title": "MTuner",
+            "url": "https://renderdoc.org/",
+            "description": "Memory profiler.",
+            "tags": [
+                "profiling",
+                "memory",
+                "windows"
+            ]
+        },
+        {
+            "title": "Lock Hunter",
+            "url": "https://lockhunter.com/",
+            "description": "Unlock files opened by processes.",
+            "tags": [
+                "favorite",
+                "utility",
+                "windows"
+            ]
+        },
+        {
+            "title": "Katai Struct",
+            "url": "https://kaitai.io",
+            "description": "Suit of tools to define/load/save/explore binary formats using DSL.",
+            "tags": [
+                "utility",
+                "windows",
+                "linux",
+                "macos"
+            ]
+        },
+        {
+            "title": "Jupyter",
+            "url": "https://jupyter.org/",
+            "description": "Python notebook, commonly used via VSCode plugin.",
+            "tags": [
+                "favorite",
+                "ide",
+                "plugin",
+                "windows",
+                "linux",
+                "macos"
+            ]
+        },
+        {
+            "title": "Jenkins",
+            "url": "https://www.jenkins.io/",
+            "description": "Open source build server.",
+            "tags": [
+                "build",
+                "windows",
+                "linux",
+                "macos"
+            ]
+        },
+        {
+            "title": "ImHex",
+            "url": "https://github.com/WerWolv/ImHex/",
+            "description": "Cross-platform hexadecimal editor.",
+            "tags": [
+                "utility",
+                "windows",
+                "linux",
+                "macos"
+            ]
+        },
+        {
+            "title": "HxD",
+            "url": "https://mh-nexus.de/en/hxd/",
+            "description": "Windows hexadecimal editor.",
+            "tags": [
+                "utility",
+                "windows"
+            ]
+        },
+        {
+            "title": "Git Desktop",
+            "url": "https://github.com/",
+            "description": "Github UI.",
+            "tags": [
+                "utility",
+                "windows",
+                "linux",
+                "macos"
+            ]
+        },
+        {
+            "title": "Git",
+            "url": "https://git-scm.com",
+            "description": "Distributed version control system.",
+            "tags": [
+                "vcs",
+                "favorite",
+                "windows",
+                "linux",
+                "macos"
+            ]
+        },
+        {
+            "title": "Gimp",
+            "url": "https://www.gimp.org/",
+            "description": "Image editor.",
+            "tags": [
+                "dcc",
+                "windows",
+                "linux",
+                "macos"
+            ]
+        },
+        {
+            "title": "Ghidra",
+            "url": "https://github.com/NationalSecurityAgency/ghidra/",
+            "description": "Binary decompiler.",
+            "tags": [
+                "utility",
+                "windows",
+                "linux",
+                "macos"
+            ]
+        },
+        {
+            "title": "UI For ETW",
+            "url": "https://github.com/google/UIforETW",
+            "description": "Windows Performance Recorder made easier.",
+            "tags": [
+                "utility",
+                "profiling",
+                "cpu",
+                "windows",
+                "linux",
+                "macos"
+            ]
+        },
+        {
+            "title": "ETW Analyzer",
+            "url": "https://github.com/Siemens-Healthineers/ETWAnalyzer",
+            "description": "Extract summary from ETL files.",
+            "tags": [
+                "utility",
+                "profiling",
+                "cpu",
+                "windows",
+                "linux",
+                "macos"
+            ]
+        },
+        {
+            "title": "CMake",
+            "url": "https://cmake.org/",
+            "description": "Cross-platform C++ build system.",
+            "tags": [
+                "favorite",
+                "build",
+                "utility",
+                "windows",
+                "linux",
+                "macos"
+            ]
+        },
+        {
+            "title": "Chrome Tracing",
+            "url": "chrome://tracing",
+            "description": "Built-in Chrome trace event profiling viewer.\nCan be used to visualize profiling data produced by any application.",
+            "tags": [
+                "favorite",
+                "profiling",
+                "cpu",
+                "windows",
+                "linux",
+                "macos"
+            ]
+        },
+        {
+            "title": "Binary Ninja",
+            "url": "https://binary.ninja/",
+            "description": "Binary decompiler.",
+            "tags": [
+                "utility",
+                "windows",
+                "linux",
+                "macos"
+            ]
+        },
+        {
+            "title": "Blender",
+            "url": "https://www.blender.org/",
+            "description": "3D creation software.",
+            "tags": [
+                "dcc",
+                "windows",
+                "linux",
+                "macos"
+            ]
+        },
+        {
+            "title": "Neovim",
+            "url": "https://neovim.io",
+            "description": "Extensible vim-based text editor.",
+            "tags": [
+                "ide",
+                "favorite"
+            ]
+        }
+    ]
+}
