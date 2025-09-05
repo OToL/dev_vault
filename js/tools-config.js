@@ -14,7 +14,7 @@ function toolTemplate(tool) {
             </div>
             <div class="tool-description">${tool.description || ''}</div>
             <div class="tool-tags">
-                ${(tool.tags || []).filter(tag => tag !== 'favorite').map(tag => `<span class="tool-tag">${tag}</span>`).join('')}
+                ${(tool.tags || []).filter(tag => tag !== 'favorite').sort().map(tag => `<span class="tool-tag">${tag}</span>`).join('')}
             </div>
         </div>
     `;
