@@ -1,0 +1,26 @@
+{
+    "name": "website",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "eleventy",
+        "serve": "eleventy --serve",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/OToL/website.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs",
+    "bugs": {
+        "url": "https://github.com/OToL/website/issues"
+    },
+    "homepage": "https://github.com/OToL/website#readme",
+    "devDependencies": {
+        "@11ty/eleventy": "^3.1.2"
+    }
+}
