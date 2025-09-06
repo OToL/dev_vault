@@ -1,1 +1,1 @@
-Deploy URL: https://otoldevvault.netlify.app
+Visit https://otoldevvault.netlify.app
