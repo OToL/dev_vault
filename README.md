@@ -1,3 +1,2 @@
-site: https://the-dev-vault.netlify.app
-
-host: [Netlify](https://app.netlify.com)
+- site: https://the-dev-vault.netlify.app
+- host: [Netlify](https://app.netlify.com)
