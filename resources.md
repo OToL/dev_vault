@@ -25,7 +25,7 @@ title: Resources
 </div>
 
 <div class="no-results" id="noResults" style="display: none;">
-    No resources found matching your criteria.
+    No resources found matching your criteria. 
 </div>
 
 <script src="/js/item-filter.js"></script>
