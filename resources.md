@@ -28,5 +28,5 @@ title: Resources
     No resources found matching your criteria. 
 </div>
 
-<script src="./js/item-filter.js"></script>
-<script src="./js/resources-config.js"></script>
+<script src="/js/item-filter.js"></script>
+<script src="/js/resources-config.js"></script>

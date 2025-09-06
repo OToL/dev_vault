@@ -12,6 +12,6 @@ module.exports = function(eleventyConfig) {
             data: "data",
             output: "_site"
         },
-        pathPrefix: process.env.ELEVENTY_ENV === 'production' ? '/dev_vault/' : ''
+        pathPrefix: process.env.ELEVENTY_ENV === 'production' ? 'https://otol.github.io/dev_vault/' : ''
     };
 };
