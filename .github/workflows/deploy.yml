@@ -30,9 +30,7 @@ jobs:
         uses: actions/configure-pages@v4
         
       - name: Install dependencies
-        run: |
           npm install
-          npx @11ty/eleventy        
 
       - name: Build site
         npm run build
