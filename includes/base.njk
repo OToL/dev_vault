@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title }} - DevTools</title>
+    <title>{{ title }} - Dev Vault</title>
     <link rel="stylesheet" href="/css/base.css">
     <link rel="stylesheet" href="/css/navigation.css">
     <link rel="stylesheet" href="/css/filters.css">
@@ -11,13 +12,15 @@
     <link rel="stylesheet" href="/css/homepage.css">
     <link rel="stylesheet" href="/css/responsive.css">
 </head>
+
 <body>
     <nav>
         <div class="nav-container">
-            <a href="/" class="nav-brand">DevTools</a>
+            <a href="/" class="nav-brand">Dev Vault</a>
             <ul class="nav-links">
-                <li><a href="/" {% if page.url == '/' %}class="active"{% endif %}>Home</a></li>
-                <li><a href="/tools/" {% if page.url == '/tools/' %}class="active"{% endif %}>Tools</a></li>
+                <li><a href="/" {% if page.url=='/' %}class="active" {% endif %}>Home</a></li>
+                <li><a href="/tools/" {% if page.url=='/tools/' %}class="active" {% endif %}>Tools</a></li>
+                <li><a href="/resources/" {% if page.url=='/resources/' %}class="active" {% endif %}>Resources</a></li>
             </ul>
         </div>
     </nav>
@@ -28,4 +31,5 @@
         </div>
     </main>
 </body>
+
 </html>

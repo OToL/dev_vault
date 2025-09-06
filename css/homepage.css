@@ -1,8 +1,8 @@
 /* Homepage section cards */
 .section-cards {
     display: grid;
-    gap: 1.5rem;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 0.75rem;
+    grid-template-columns: 1fr; /* Changed from repeat(auto-fit, minmax(300px, 1fr)) */
     margin: 2rem 0;
 }
 

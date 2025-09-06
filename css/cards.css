@@ -153,3 +153,17 @@
     font-size: 0.75rem;
     font-weight: 500;
 }
+
+/* Resources grid - single column, full width */
+.resources-grid {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 1fr; /* Single column */
+}
+
+.resource-title-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-grow: 1;
+}

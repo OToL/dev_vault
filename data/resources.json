@@ -1,0 +1,16 @@
+{
+  "resources": [
+    {
+      "title": "Clean Code",
+      "url": "https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882",
+      "description": "A comprehensive guide to writing maintainable, readable code. Covers principles of clean coding, meaningful names, functions, comments, and formatting. Essential reading for any serious software developer.",
+      "tags": ["book", "best-practices", "programming"]
+    },
+    {
+      "title": "MDN Web Docs",
+      "url": "https://developer.mozilla.org/",
+      "description": "The most comprehensive and up-to-date documentation for web technologies including HTML, CSS, JavaScript, and Web APIs. Created and maintained by Mozilla with contributions from the developer community.",
+      "tags": ["documentation", "web", "reference"]
+    }
+  ]
+}
