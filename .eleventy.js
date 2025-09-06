@@ -11,6 +11,7 @@ module.exports = function(eleventyConfig) {
             includes: "includes",
             data: "data",
             output: "_site"
-        }
+        },
+        pathPrefix: process.env.ELEVENTY_ENV === 'production' ? '/dev_vault/' : ''
     };
 };
