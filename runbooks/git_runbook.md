@@ -10,8 +10,6 @@ date: 2025-01-15
 
 ## Terms
 
-- dddd
-
 - origin: Term generally used to identify the main remote depot. 
 		It could be specified via 'git remote add \<name\> \<url>' 
 - workspace: Local copy of the data from a local branch (branch from local depot) i.e. what the user/filesystem is seeing
@@ -25,7 +23,7 @@ date: 2025-01-15
 
 ## Depots Interactions
 
-![](git_commands_depot.png "git depots flow")
+TODO: include images
 
 # Depot Initialisation
 
