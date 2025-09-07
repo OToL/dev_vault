@@ -1,0 +1,175 @@
+/* Simple blog-style list - force remove bullets */
+.runbooks-list {
+    list-style: none !important;
+    list-style-type: none !important;
+    padding: 0 0 0 1.5rem !important;
+    margin: 0 !important;
+    max-width: 1000px;
+}
+
+.runbooks-list li {
+    list-style: none !important;
+    list-style-type: none !important;
+    padding: 0.75rem 0 !important;
+    margin: 0 !important;
+    border-bottom: 1px solid #e2e8f0;
+    position: relative;
+}
+
+.runbooks-list li::before {
+    content: none !important;
+}
+
+.runbooks-list li::marker {
+    content: none !important;
+}
+
+.runbooks-list li:last-child {
+    border-bottom: none;
+}
+
+.runbooks-list a {
+    color: #1e293b;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.runbooks-list a:hover {
+    color: #2563eb;
+    text-decoration: underline;
+}
+
+.runbooks-list .date {
+    color: #64748b;
+    font-size: 0.875rem;
+    font-weight: normal;
+}
+
+/* Individual runbook/blog page styling */
+.blog-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.blog-content h1 {
+    color: #1e293b;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 1rem;
+}
+
+/* Make runbook content more visually appealing */
+.blog-content h2 {
+    color: #1e293b;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 2rem 0 1rem 0;
+    padding-left: 1rem;
+    border-left: 4px solid #2563eb;
+    background: #f8fafc;
+    padding: 0.75rem 0 0.75rem 1rem;
+}
+
+.blog-content h3 {
+    color: #1e293b;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 1.5rem 0 0.75rem 0;
+    position: relative;
+}
+
+.blog-content h3::before {
+    content: "▶";
+    color: #2563eb;
+    margin-right: 0.5rem;
+}
+
+.blog-content p {
+    color: #374151;
+    line-height: 1.7;
+    margin-bottom: 0.1rem;
+}
+
+/* Reduce spacing between paragraphs and following lists */
+.blog-content p + ul,
+.blog-content p + ol {
+    margin-top: 0.1rem !important;
+}
+
+.blog-content ul,
+.blog-content ol {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding-left: 2rem !important;
+    margin: 1rem 0 !important;
+}
+
+/* Add subtle background to numbered lists */
+.blog-content ol {
+    background: #f8fafc !important;
+    border-radius: 8px !important;
+    padding: 1rem 1rem 1rem 3rem !important;
+    margin: 1.5rem 0 !important;
+}
+
+.blog-content li {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin-bottom: 0.5rem !important;
+    color: #374151;
+    line-height: 1.6;
+}
+
+/* Style definition lists better */
+.blog-content li strong {
+    color: #2563eb !important;
+    font-weight: 700 !important;
+}
+
+/* Fix bold text styling */
+.blog-content strong,
+.blog-content b {
+    font-weight: 600 !important;
+    color: #1e293b !important;
+    background: none !important;
+    padding: 0 !important;
+    border: none !important;
+}
+
+/* Style code blocks with better appearance */
+.blog-content code {
+    background: #1e293b !important;
+    color: #e2e8f0 !important;
+    padding: 0.3rem 0.6rem !important;
+    border-radius: 6px !important;
+    font-family: 'Monaco', 'Menlo', 'Consolas', monospace !important;
+    font-size: 0.85rem !important;
+    border: 1px solid #374151 !important;
+    font-weight: 500 !important;
+}
+
+.blog-content pre {
+    background: #1e293b !important;
+    color: #e2e8f0 !important;
+    padding: 1rem !important;
+    border-radius: 8px !important;
+    margin: 1.5rem 0 !important;
+    border: 1px solid #374151 !important;
+    overflow-x: auto !important;
+}
+
+.blog-content pre code {
+    background: none !important;
+    padding: 0 !important;
+    border: none !important;
+    color: #e2e8f0 !important;
+    font-family: 'Monaco', 'Menlo', 'Consolas', monospace !important;
+    font-size: 0.85rem !important;
+}

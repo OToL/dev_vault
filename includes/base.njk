@@ -1,3 +1,4 @@
+{% from "macros.njk" import navigation %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,6 +12,7 @@
     <link rel="stylesheet" href="/css/cards.css">
     <link rel="stylesheet" href="/css/homepage.css">
     <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/blog-sections.css">
 </head>
 
 <body>
@@ -21,6 +23,7 @@
                 <li><a href="/" {% if page.url=='/' %}class="active" {% endif %}>Home</a></li>
                 <li><a href="/tools/" {% if page.url=='/tools/' %}class="active" {% endif %}>Tools</a></li>
                 <li><a href="/resources/" {% if page.url=='/resources/' %}class="active" {% endif %}>Resources</a></li>
+                <li><a href="/runbooks/" {% if page.url=='/runbooks/' %}class="active" {% endif %}>Run Books</a></li>
             </ul>
         </div>
     </nav>

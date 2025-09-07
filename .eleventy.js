@@ -5,6 +5,13 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("data");
     eleventyConfig.addPassthroughCopy("images");
 
+    // Create runbooks collection
+    eleventyConfig.addCollection("runbooks", function(collection) {
+        return collection.getFilteredByGlob("runbooks/*.md").sort(function(a, b) {
+            return new Date(b.data.date) - new Date(a.data.date);
+        });
+    });
+
     return {
         dir: {
             input: ".",
