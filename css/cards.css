@@ -84,14 +84,14 @@
     font-weight: 500;
 }
 
-/* Generic item grids (for future sections like resources) */
-.items-grid, .resources-grid {
+/* Generic item grids (for future sections like bookmarks) */
+.items-grid, .bookmarks-grid {
     display: grid;
     gap: 1.5rem;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 }
 
-.item-card, .resource-card {
+.item-card, .bookmark-card {
     background: white;
     border-radius: 12px;
     padding: 1.5rem;
@@ -102,16 +102,16 @@
     height: 100%;
 }
 
-.item-card:hover, .resource-card:hover {
+.item-card:hover, .bookmark-card:hover {
     transform: translateY(-4px);
     box-shadow: 0 8px 30px rgba(0,0,0,0.12);
 }
 
-.resource-header {
+.bookmark-header {
     margin-bottom: 1rem;
 }
 
-.resource-title {
+.bookmark-title {
     font-size: 1.25rem;
     font-weight: 600;
     color: #1e293b;
@@ -119,18 +119,18 @@
     transition: color 0.2s;
 }
 
-.resource-title:hover {
+.bookmark-title:hover {
     color: #2563eb;
 }
 
-.resource-author {
+.bookmark-author {
     color: #64748b;
     font-size: 0.875rem;
     margin-top: 0.25rem;
     display: block;
 }
 
-.resource-description {
+.bookmark-description {
     color: #64748b;
     margin-bottom: 1rem;
     white-space: pre-line;
@@ -138,14 +138,14 @@
     flex-grow: 1;
 }
 
-.resource-tags {
+.bookmark-tags {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
     margin-top: auto;
 }
 
-.resource-tag {
+.bookmark-tag {
     padding: 0.25rem 0.75rem;
     background: #f1f5f9;
     color: #64748b;
@@ -154,14 +154,14 @@
     font-weight: 500;
 }
 
-/* Resources grid - single column, full width */
-.resources-grid {
+/* bookmarks grid - single column, full width */
+.bookmarks-grid {
     display: grid;
     gap: 1.5rem;
     grid-template-columns: 1fr; /* Single column */
 }
 
-.resource-title-container {
+.bookmark-title-container {
     display: flex;
     align-items: center;
     gap: 0.5rem;

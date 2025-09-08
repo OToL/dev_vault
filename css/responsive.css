@@ -4,7 +4,7 @@
         grid-template-columns: 1fr;
     }
     
-    .tools-grid, .items-grid, .resources-grid {
+    .tools-grid, .items-grid, .bookmarks-grid {
         grid-template-columns: 1fr;
     }
     

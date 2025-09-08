@@ -5,7 +5,7 @@ title: Home
 
 # Welcome to the Dev Vault
 
-A curated collection of interesing tools, utilities and resources I came accros as well as random thoughts & notes on Software Development.
+A curated collection of interesing tools, utilities and bookmarks I came accros as well as random thoughts & notes on Software Development.
 
 ## What You'll Find Here
 
@@ -19,10 +19,10 @@ A curated collection of interesing tools, utilities and resources I came accros 
     </div>
     
     <div class="section-card">
-        <h3>📖 <a href="./resources/">Resources</a></h3>
-        <p>Books, articles, documentation, and other valuable resources for software developers. Organized by topic and easily searchable.</p>
+        <h3>📖 <a href="./bookmarks/">Bookmarks</a></h3>
+        <p>Books, articles, documentation, and other valuable bookmarks for software developers. Organized by topic and easily searchable.</p>
         <div class="section-stats">
-            <span class="stat resources-stat">Loading...</span>
+            <span class="stat bookmarks-stat">Loading...</span>
         </div>
     </div>
 

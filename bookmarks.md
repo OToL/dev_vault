@@ -1,9 +1,9 @@
 ---
 layout: base.njk
-title: Resources
+title: Bookmarks
 ---
 
-# Development Resources
+# Development Boomarks
 
 <div class="filter-section">
     <div class="filter-toggle" onclick="toggleFilters()">
@@ -20,13 +20,13 @@ title: Resources
     </div>
 </div>
 
-<div class="resources-grid" id="resourcesGrid">
-    <!-- Resources will be populated by JavaScript -->
+<div class="bookmakrs-grid" id="bookmarksGrid">
+    <!-- Bookmarks will be populated by JavaScript -->
 </div>
 
 <div class="no-results" id="noResults" style="display: none;">
-    No resources found matching your criteria. 
+    No bookmarks found matching your criteria. 
 </div>
 
 <script src="/js/item-filter.js"></script>
-<script src="/js/resources-config.js"></script>
+<script src="/js/bookmarks-config.js"></script>
