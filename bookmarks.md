@@ -20,7 +20,7 @@ title: Bookmarks
     </div>
 </div>
 
-<div class="bookmakrs-grid" id="bookmarksGrid">
+<div class="bookmarks-grid" id="bookmarksGrid">
     <!-- Bookmarks will be populated by JavaScript -->
 </div>
 
