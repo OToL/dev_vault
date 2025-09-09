@@ -5,6 +5,17 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("data");
     eleventyConfig.addPassthroughCopy("images");
 
+    // Transform relative image paths to absolute paths for runbooks
+      eleventyConfig.addTransform("fixImagePaths", function(content, outputPath) {
+        if (outputPath && outputPath.includes("/runbooks/")) {
+          // Convert relative image paths like ../images/file.png or ./images/file.png to /images/file.png
+          content = content.replace(/(<img[^>]+src=["'])\.\.?\/images\//g, '$1/images/');
+          // Convert markdown image syntax
+          content = content.replace(/!\[([^\]]*)\]\(\.\.?\/images\//g, '![$1](/images/');
+        }
+        return content;
+      });
+
     // Create runbooks collection
     eleventyConfig.addCollection("runbooks", function(collection) {
         return collection.getFilteredByGlob("runbooks/*.md").sort(function(a, b) {

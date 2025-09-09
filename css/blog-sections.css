@@ -1,56 +1,7 @@
-/* Simple blog-style list - force remove bullets */
-.runbooks-list {
-    list-style: none !important;
-    list-style-type: none !important;
-    padding: 0 0 0 1.5rem !important;
-    margin: 0 !important;
-    max-width: 1000px;
-}
-
-.runbooks-list li {
-    list-style: none !important;
-    list-style-type: none !important;
-    padding: 0.75rem 0 !important;
-    margin: 0 !important;
-    border-bottom: 1px solid #e2e8f0;
-    position: relative;
-}
-
-.runbooks-list li::before {
-    content: none !important;
-}
-
-.runbooks-list li::marker {
-    content: none !important;
-}
-
-.runbooks-list li:last-child {
-    border-bottom: none;
-}
-
-.runbooks-list a {
-    color: #1e293b;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 1.1rem;
-}
-
-.runbooks-list a:hover {
-    color: #2563eb;
-    text-decoration: underline;
-}
-
-.runbooks-list .date {
-    color: #64748b;
-    font-size: 0.875rem;
-    font-weight: normal;
-}
-
 /* Individual runbook/blog page styling */
 .blog-content {
     max-width: 1000px;
     margin: 0 auto;
-    padding: 2rem 0;
 }
 
 .blog-content h1 {
@@ -58,7 +9,6 @@
     font-size: 1.8rem;
     font-weight: 700;
     margin-bottom: 2rem;
-    border-bottom: 2px solid #e2e8f0;
     padding-bottom: 1rem;
 }
 
@@ -133,16 +83,6 @@
     font-weight: 700 !important;
 }
 
-/* Fix bold text styling */
-.blog-content strong,
-.blog-content b {
-    font-weight: 600 !important;
-    color: #1e293b !important;
-    background: none !important;
-    padding: 0 !important;
-    border: none !important;
-}
-
 /* Style code blocks with better appearance */
 .blog-content code {
     background: #1e293b !important;
@@ -155,6 +95,15 @@
     font-weight: 500 !important;
 }
 
+.blog-content pre code {
+    background: none !important;
+    padding: 0 !important;
+    border: none !important;
+    color: #e2e8f0 !important;
+    font-family: 'Monaco', 'Menlo', 'Consolas', monospace !important;
+    font-size: 0.85rem !important;
+}
+
 .blog-content pre {
     background: #1e293b !important;
     color: #e2e8f0 !important;
@@ -165,11 +114,11 @@
     overflow-x: auto !important;
 }
 
-.blog-content pre code {
-    background: none !important;
-    padding: 0 !important;
-    border: none !important;
-    color: #e2e8f0 !important;
-    font-family: 'Monaco', 'Menlo', 'Consolas', monospace !important;
-    font-size: 0.85rem !important;
+/* Images */
+.blog-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 2rem 0;
+    display: block;
 }

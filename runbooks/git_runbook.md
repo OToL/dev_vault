@@ -3,10 +3,7 @@ layout: runbook.njk
 title: Git basic commands & workflows
 date: 2025-01-15
 ---
-
-<div class="blog-content">
-
-# Concpets
+# Concepts
 
 ## Terms
 
@@ -23,7 +20,7 @@ date: 2025-01-15
 
 ## Depots Interactions
 
-TODO: include images
+![](../images/git_commands_depot.png)
 
 # Depot Initialisation
 
@@ -146,9 +143,9 @@ The recursive sub-modules pull can be automatic via git option:
 
 # Ignore Depot files
 
+
 There are 2 ways of doing it ...
 * locally: '.ignore' file at the root of the git depot 
 * globally: 'ignore' file in user's git config folder (~/.config/git/)
 
-
-</div>
+Test paragraph spacing
