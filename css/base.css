@@ -11,19 +11,19 @@ body {
     background: #f8fafc;
 }
 
+/* Main content with some padding with the top bar */
+main {
+    padding: 2rem 0;
+    min-height: calc(100vh - 80px);
+}
+
+/* Used to keep their content (usually applied to a div inside "main") in a centered box */
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
 }
 
-/* Main content */
-main {
-    padding: 2rem 0;
-    min-height: calc(100vh - 80px);
-}
-
-/* Typography */
 main h1 {
     color: #1e293b;
     margin-bottom: 1rem;
@@ -36,26 +36,21 @@ main h2 {
     padding-bottom: 0.5rem;
 }
 
-/* Lists */
-main ul {
-    background: white;
-    border-radius: 12px;
-    padding: 1.5rem;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
-}
-
-main li {
-    margin-bottom: 0.5rem;
-    color: #64748b;
-}
-
-main li strong {
+main a {
     color: #1e293b;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
 }
 
-.no-results {
-    text-align: center;
-    color: #64748b;
-    font-size: 1.1rem;
-    margin-top: 3rem;
+main a:hover {
+    color: #2563eb;
+    text-decoration: underline;
 }
+
+main .date {
+    color: #64748b;
+    font-size: 0.875rem;
+    font-weight: normal;
+}
+

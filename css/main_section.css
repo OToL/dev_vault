@@ -1,0 +1,23 @@
+/* item lists style */
+main ul {
+    backgrond: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+main li {
+    margin-bottom: 0.5rem;
+    color: #64748b;
+}
+main li strong {
+    color: #1e293b;
+}
+
+/* Filter no result style */
+.no-results {
+    text-align: center;
+    color: #64748b;
+    font-size: 1.1rem;
+    margin-top: 3rem;
+}
+

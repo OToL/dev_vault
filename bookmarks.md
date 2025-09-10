@@ -1,5 +1,5 @@
 ---
-layout: base.njk
+layout: main_section.njk
 title: Bookmarks
 ---
 

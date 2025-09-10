@@ -1,19 +1,19 @@
-/* Individual runbook/blog page styling */
-.blog-content {
+/* Individual runbook/article page styling */
+.article-content {
     max-width: 1000px;
     margin: 0 auto;
 }
 
-.blog-content h1 {
+.article-content h1 {
     color: #1e293b;
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     font-weight: 700;
-    margin-bottom: 2rem;
+    margin-bottom: -2.0rem;
     padding-bottom: 1rem;
 }
 
 /* Make runbook content more visually appealing */
-.blog-content h2 {
+.article-content h2 {
     color: #1e293b;
     font-size: 1.5rem;
     font-weight: 600;
@@ -24,34 +24,20 @@
     padding: 0.75rem 0 0.75rem 1rem;
 }
 
-.blog-content h3 {
-    color: #1e293b;
-    font-size: 1.25rem;
-    font-weight: 600;
-    margin: 1.5rem 0 0.75rem 0;
-    position: relative;
-}
-
-.blog-content h3::before {
-    content: "▶";
-    color: #2563eb;
-    margin-right: 0.5rem;
-}
-
-.blog-content p {
+.article-content p {
     color: #374151;
     line-height: 1.7;
     margin-bottom: 0rem; /* No margin at all */
 }
 
-/* Remove spacing between paragraphs and following lists */
-.blog-content p + ul,
-.blog-content p + ol {
-    margin-top: 0rem !important; /* No spacing at all */
+/* Adjust spaciing between paragraphs and following lists */
+.article-content p + ul,
+.article-content p + ol {
+    margin-top: 0.1rem !important; /* No spacing at all */
 }
 
-.blog-content ul,
-.blog-content ol {
+.article-content ul,
+.article-content ol {
     background: none !important;
     border: none !important;
     box-shadow: none !important;
@@ -59,32 +45,18 @@
     margin: 1rem 0 !important;
 }
 
-/* Add subtle background to numbered lists */
-.blog-content ol {
-    background: #f8fafc !important;
-    border-radius: 8px !important;
-    padding: 1rem 1rem 1rem 3rem !important;
-    margin: 1.5rem 0 !important;
-}
-
-.blog-content li {
-    background: none !important;
+.article-content li {
+   background: none !important;
     border: none !important;
     box-shadow: none !important;
     padding: 0 !important;
-    margin-bottom: 0.5rem !important;
+    margin-bottom: 0.1rem !important;
     color: #374151;
     line-height: 1.6;
 }
 
-/* Style definition lists better */
-.blog-content li strong {
-    color: #2563eb !important;
-    font-weight: 700 !important;
-}
-
 /* Style code blocks with better appearance */
-.blog-content code {
+.article-content code {
     background: #1e293b !important;
     color: #e2e8f0 !important;
     padding: 0.3rem 0.6rem !important;
@@ -95,7 +67,7 @@
     font-weight: 500 !important;
 }
 
-.blog-content pre code {
+.article-content pre code {
     background: none !important;
     padding: 0 !important;
     border: none !important;
@@ -104,7 +76,7 @@
     font-size: 0.85rem !important;
 }
 
-.blog-content pre {
+.article-content pre {
     background: #1e293b !important;
     color: #e2e8f0 !important;
     padding: 1rem !important;
@@ -115,7 +87,7 @@
 }
 
 /* Images */
-.blog-content img {
+.article-content img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
