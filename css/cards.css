@@ -68,6 +68,7 @@
 
 .bookmark-description, .tool-description {
     color: #64748b;
+    margin-top: -0.7rem;
     margin-bottom: 1rem;
     white-space: pre-line;
     line-height: 1.5;
@@ -96,10 +97,25 @@
     margin-top: 0.25rem;
     display: block;
 }
+ 
+/* Use default bullet points for bookmarks' description*/
+.bookmark-description ul {
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+    padding-left: 1.2rem !important;
+    box-shadow: none !important;
+    list-style-type: "• " !important;
+    margin-bottom: 0rem !important;
+    border-radius: none !important;
+}
 
+.bookmark-description li {
+    background: none !important;
+    box-shadow: none !important;
+    margin-bottom: 0rem !important;
+}
 
 .favorite-star {
     font-size: 1.2rem;
 }
-
 
