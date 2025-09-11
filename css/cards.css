@@ -62,6 +62,10 @@
     transition: color 0.2s;
 }
 
+.tool-title {
+    margin-left : -0.5rem;
+}
+
 .tool-title:hover, .bookmark-title:hover {
     color: #2563eb;
 }
