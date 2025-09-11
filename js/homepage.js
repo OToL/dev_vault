@@ -1,12 +1,24 @@
+async function updateRunbooksCount() {
+    try {
+        const response = await fetch('/data/runbooks-count.json');
+        const data = await response.json();
+        document.getElementById('runbooks-count').textContent = data.count;
+    } catch (error) {
+        console.error('Error loading runbooks count:', error);
+    }
+}
+
 async function updateStats() {
     try {
-        const [toolsResponse, bookmarksResponse] = await Promise.all([
+        const [toolsResponse, bookmarksResponse, runbooksResponse] = await Promise.all([
             fetch('/data/tools.json'),
-            fetch('/data/bookmarks.json').catch(() => null) // Handle if runbooks.json doesn't exist
+            fetch('/data/bookmarks.json'),
+            fetch('/data/runbooks-count.json').catch(() => null) 
         ]);
         
         const toolsData = await toolsResponse.json();
         const bookmarksData = await bookmarksResponse.json();
+        const runbooksData = await runbooksResponse.json();
         
         const toolsStatEl = document.querySelector('.tools-stat');
         const bookmarksStatEl = document.querySelector('.bookmarks-stat');
@@ -21,9 +33,7 @@ async function updateStats() {
         }
         
         if (runbooksStatEl) {
-            // Since runbooks use 11ty collections, we need to count differently
-            // For now, set a static count or fetch from a generated JSON
-            runbooksStatEl.textContent = `2+ runbooks available`;
+            runbooksStatEl.textContent = `${bookmarksData.bookmarks.length} runbooks available`;
         }
     } catch (error) {
         console.error('Error loading stats:', error);

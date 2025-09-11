@@ -22,5 +22,8 @@
     "homepage": "https://github.com/OToL/website#readme",
     "devDependencies": {
         "@11ty/eleventy": "^3.1.2"
+    },
+    "dependencies": {
+        "glob": "^11.0.3"
     }
 }
