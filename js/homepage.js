@@ -1,11 +1,8 @@
-async function updateRunbooksCount() {
-    try {
-        const response = await fetch('/data/runbooks-count.json');
-        const data = await response.json();
-        document.getElementById('runbooks-count').textContent = data.count;
-    } catch (error) {
-        console.error('Error loading runbooks count:', error);
+function pluralize(count, singular, plural = null) {
+    if (plural === null) {
+        plural = singular + 's';
     }
+    return count === 1 ? `${count} ${singular}` : `${count} ${plural}`;
 }
 
 async function updateStats() {
@@ -33,18 +30,19 @@ async function updateStats() {
         }
         
         if (runbooksStatEl) {
-            runbooksStatEl.textContent = `${bookmarksData.bookmarks.length} runbooks available`;
+            runbooksStatEl.textContent = `${pluralize(runbooksData.count, 'runbook')} available`;
         }
     } catch (error) {
         console.error('Error loading stats:', error);
+
         // Fallback to static text if fetch fails
         const toolsStatEl = document.querySelector('.tools-stat');
         const bookmarksStatEl = document.querySelector('.bookmarks-stat');
         const runbooksStatEl = document.querySelector('.runbooks-stat');
         
-        if (toolsStatEl) toolsStatEl.textContent = '2+ tools indexed';
-        if (bookmarksStatEl) bookmarksStatEl.textContent = '2+ bookmarks indexed';
-        if (runbooksStatEl) runbooksStatEl.textContent = '2+ runbooks available';
+        if (toolsStatEl) toolsStatEl.textContent = 'n/a';
+        if (bookmarksStatEl) bookmarksStatEl.textContent = 'n/a';
+        if (runbooksStatEl) runbooksStatEl.textContent = 'n/a';
     }
 }
 
