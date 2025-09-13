@@ -7,10 +7,10 @@ function pluralize(count, singular, plural = null) {
 
 async function updateStats() {
     try {
-        const [toolsResponse, bookmarksResponse, runbooksResponse] = await Promise.all([
+        const [toolsResponse, runbooksResponse, bookmarksResponse] = await Promise.all([
             fetch('/data/tools.json'),
-            fetch('/data/bookmarks.json'),
-            fetch('/data/runbooks-count.json').catch(() => null) 
+            fetch('/data/runbooks-count.json'),
+            fetch('/data/bookmarks-count.json').catch(() => null) 
         ]);
         
         const toolsData = await toolsResponse.json();
@@ -22,15 +22,15 @@ async function updateStats() {
         const runbooksStatEl = document.querySelector('.runbooks-stat');
         
         if (toolsStatEl) {
-            toolsStatEl.textContent = `${toolsData.tools.length} tools indexed`;
+            toolsStatEl.textContent = `${pluralize(toolsData.tools.length, 'tool')} indexed`;
         }
         
         if (bookmarksStatEl) {
-            bookmarksStatEl.textContent = `${bookmarksData.bookmarks.length} bookmarks indexed`;
+            bookmarksStatEl.textContent = `${pluralize(bookmarksData.count, 'bookmark')} indexed`;
         }
         
         if (runbooksStatEl) {
-            runbooksStatEl.textContent = `${pluralize(runbooksData.count, 'runbook')} available`;
+            runbooksStatEl.textContent = `${pluralize(runbooksData.count, 'run book')} available`;
         }
     } catch (error) {
         console.error('Error loading stats:', error);

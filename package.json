@@ -24,6 +24,7 @@
         "@11ty/eleventy": "^3.1.2"
     },
     "dependencies": {
-        "glob": "^11.0.3"
+        "glob": "^11.0.3",
+        "marked": "^16.2.1"
     }
 }
