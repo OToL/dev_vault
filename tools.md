@@ -28,5 +28,5 @@ title: Tools
     No tools found matching your criteria.
 </div>
 
-<script src="/js/item-filter.js"></script>
-<script src="/js/tools-config.js"></script>
+<script src="{{ baseUrl }}/js/item-filter.js"></script>
+<script src="{{ baseUrl }}/js/tools-config.js"></script>

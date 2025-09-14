@@ -28,5 +28,5 @@ title: Bookmarks
     No bookmarks found matching your criteria. 
 </div>
 
-<script src="/js/item-filter.js"></script>
-<script src="/js/bookmarks-config.js"></script>
+<script src="{{ baseUrl }}/js/item-filter.js"></script>
+<script src="{{ baseUrl }}/js/bookmarks-config.js"></script>

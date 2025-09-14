@@ -4,19 +4,40 @@ const glob = require('glob');
 const matter = require('gray-matter');
 
 module.exports = function(eleventyConfig) {
+    const isProduction = process.env.ELEVENTY_ENV === 'production';
+    const baseUrl = isProduction ? '/dev_vault' : '';
+
     // Copy CSS, JS, and data files to output
     eleventyConfig.addPassthroughCopy("css");
     eleventyConfig.addPassthroughCopy("js");
     eleventyConfig.addPassthroughCopy("data");
     eleventyConfig.addPassthroughCopy("images");
 
+    // Add global data for base URL
+    eleventyConfig.addGlobalData("baseUrl", baseUrl);
+
     // Transform relative image paths to absolute paths for runbooks
     eleventyConfig.addTransform("fixImagePaths", function(content, outputPath) {
         if (outputPath && outputPath.includes("/runbooks/")) {
             // Convert relative image paths like ../images/file.png or ./images/file.png to /images/file.png
-            content = content.replace(/(<img[^>]+src=["'])\.\.?\/images\//g, '$1/images/');
+            content = content.replace(/(<img[^>]+src=["'])\.\.?\/images\//g, `$1${baseUrl}/images/`);
             // Convert markdown image syntax
-            content = content.replace(/!\[([^\]]*)\]\(\.\.?\/images\//g, '![$1](/images/');
+            content = content.replace(/!\[([^\]]*)\]\(\.\.?\/images\//g, `![$1](${baseUrl}/images/`);
+        }
+        return content;
+    });
+
+    // Transform paths for GitHub Pages
+    eleventyConfig.addTransform("fixAbsolutePaths", function(content, outputPath) {
+        if (isProduction && outputPath && outputPath.endsWith(".html")) {
+            // Fix relative navigation links (./path/)
+            content = content.replace(/href=["']\.\/([^"']*?)["']/g, `href="${baseUrl}/$1"`);
+
+            // Fix relative script/css references (./path)
+            content = content.replace(/src=["']\.\/([^"']*?)["']/g, `src="${baseUrl}/$1"`);
+
+            // Fix fetch calls in JavaScript
+            content = content.replace(/fetch\(['"`]\/([^'"`]+)['"`]\)/g, `fetch('${baseUrl}/$1')`);
         }
         return content;
     });

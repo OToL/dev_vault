@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }} - Dev Vault</title>
-    <link rel="stylesheet" href="/css/base.css">
-    <link rel="stylesheet" href="/css/navigation.css">
-    <link rel="stylesheet" href="/css/article.css">
+    <link rel="stylesheet" href="{{ baseUrl }}/css/base.css">
+    <link rel="stylesheet" href="{{ baseUrl }}/css/navigation.css">
+    <link rel="stylesheet" href="{{ baseUrl }}/css/article.css">
 </head>
 <body>
     <nav>
         <div class="nav-container">
-            <a href="/" class="nav-brand">Dev Vault</a>
+            <a href="{{ baseUrl }}/" class="nav-brand">Dev Vault</a>
             <ul class="nav-links">
-                <li><a href="/">Home</a></li>
-                <li><a href="/tools/">Tools</a></li>
-                <li><a href="/bookmarks/">Bookmarks</a></li>
-                <li><a href="/runbooks/" class="active">Run Books</a></li>
+                <li><a href="{{ baseUrl }}/">Home</a></li>
+                <li><a href="{{ baseUrl }}/tools/">Tools</a></li>
+                <li><a href="{{ baseUrl }}/bookmarks/">Bookmarks</a></li>
+                <li><a href="{{ baseUrl }}/runbooks/" class="active">Run Books</a></li>
             </ul>
         </div>
     </nav>
