@@ -35,7 +35,7 @@ A curated collection of interesing tools, utilities and bookmarks I came accros 
     </div>
 </div>
 
-<script src="./js/homepage.js"></script>
+<script type="module" src="./js/homepage.js"></script>
 
 ---
 

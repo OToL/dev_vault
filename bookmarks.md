@@ -29,4 +29,4 @@ title: Bookmarks
 </div>
 
 <script src="{{ baseUrl }}/js/item-filter.js"></script>
-<script src="{{ baseUrl }}/js/bookmarks-config.js"></script>
+<script type="module" src="{{ baseUrl }}/js/bookmarks-config.js"></script>

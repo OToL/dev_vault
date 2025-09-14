@@ -1,11 +1,4 @@
-// Detect base URL for GitHub Pages compatibility
-function getBaseUrl() {
-    const path = window.location.pathname;
-    if (path.startsWith('/dev_vault/')) {
-        return '/dev_vault';
-    }
-    return '';
-}
+import { getBaseUrl } from './utils.js';
 
 // bookmarks-specific template
 function bookmarkTemplate(bookmark) {

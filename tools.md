@@ -29,4 +29,4 @@ title: Tools
 </div>
 
 <script src="{{ baseUrl }}/js/item-filter.js"></script>
-<script src="{{ baseUrl }}/js/tools-config.js"></script>
+<script type="module" src="{{ baseUrl }}/js/tools-config.js"></script>
