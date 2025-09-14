@@ -1,3 +1,12 @@
+// Detect base URL for GitHub Pages compatibility
+function getBaseUrl() {
+    const path = window.location.pathname;
+    if (path.startsWith('/dev_vault/')) {
+        return '/dev_vault';
+    }
+    return '';
+}
+
 // bookmarks-specific template
 function bookmarkTemplate(bookmark) {
     const isFavorite = bookmark.tags && bookmark.tags.includes('favorite');
@@ -20,8 +29,9 @@ function bookmarkTemplate(bookmark) {
 
 // Initialize bookmarks filter when DOM is ready
 document.addEventListener('DOMContentLoaded', function() {
+    const baseUrl = getBaseUrl();
     window.itemFilter = new ItemFilter({
-        dataUrl: '/data/bookmarks.json',
+        dataUrl: `${baseUrl}/data/bookmarks.json`,
         dataKey: 'bookmarks',
         containerId: 'bookmarksGrid',
         noResultsId: 'noResults',

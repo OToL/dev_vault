@@ -27,7 +27,7 @@ A curated collection of interesing tools, utilities and bookmarks I came accros 
     </div>
 
     <div class="section-card">
-        <h3>📋 <a href="/runbooks/">Run Books</a></h3>
+        <h3>📋 <a href="./runbooks/">Run Books</a></h3>
         <p>Operational procedures, troubleshooting guides, and step-by-step processes for common development and deployment tasks.</p>
         <div class="section-stats">
             <span class="stat runbooks-stat">Loading...</span>

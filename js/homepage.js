@@ -1,3 +1,12 @@
+// Detect base URL for GitHub Pages compatibility
+function getBaseUrl() {
+    const path = window.location.pathname;
+    if (path.startsWith('/dev_vault/')) {
+        return '/dev_vault';
+    }
+    return '';
+}
+
 function pluralize(count, singular, plural = null) {
     if (plural === null) {
         plural = singular + 's';
@@ -6,11 +15,12 @@ function pluralize(count, singular, plural = null) {
 }
 
 async function updateStats() {
+    const baseUrl = getBaseUrl();
     try {
         const [toolsResponse, runbooksResponse, bookmarksResponse] = await Promise.all([
-            fetch('/data/tools.json'),
-            fetch('/data/runbooks-count.json'),
-            fetch('/data/bookmarks-count.json').catch(() => null) 
+            fetch(`${baseUrl}/data/tools.json`),
+            fetch(`${baseUrl}/data/runbooks-count.json`),
+            fetch(`${baseUrl}/data/bookmarks-count.json`).catch(() => null)
         ]);
         
         const toolsData = await toolsResponse.json();
