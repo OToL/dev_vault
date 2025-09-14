@@ -2,7 +2,6 @@ const fs = require('fs');
 const path = require('path');
 const glob = require('glob');
 const matter = require('gray-matter');
-const { marked } = require('marked');
 
 module.exports = function(eleventyConfig) {
     // Copy CSS, JS, and data files to output
@@ -46,6 +45,7 @@ module.exports = function(eleventyConfig) {
         );
 
         // Generate bookmarks from markdown files
+        const { marked } = await import('marked');
         const bookmarkFiles = glob.sync('bookmarks/*.md');
         const bookmarksData = bookmarkFiles.map(file => {
             const fileContent = fs.readFileSync(file, 'utf8');
