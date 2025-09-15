@@ -1,7 +1,7 @@
 ---
 title: The perfect Sleep() function
 url: https://blog.bearcats.nl/perfect-sleep-function/
-tags: [system]
+tags: [system, favorite]
 ---
 
 - OS thread schedulers are waking up threads on a fix time window
