@@ -1,6 +1,28 @@
 {
     "tools": [
         {
+            "title": "Feedly",
+            "url": "https://feedly.com/",
+            "description": "Feed reader.",
+            "tags": [
+                "favorite",
+                "articles",
+                "web"
+            ]
+        },
+        {
+            "title": "Bulletty",
+            "url": "https://github.com/CrociDB/bulletty",
+            "description": "TUI feed reader.",
+            "tags": [
+                "utility",
+                "articles",
+                "linux",
+                "macos",
+                "windows"
+            ]
+        },
+        {
             "title": "XnView",
             "url": "https://www.xnview.com/",
             "description": "Image viewer.",
