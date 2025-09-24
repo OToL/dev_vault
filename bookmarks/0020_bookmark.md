@@ -1,7 +1,7 @@
 ---
 title: Procedural Generation with Wave Function Collapse
 url: https://vectrx.substack.com/p/the-definitive-guide-to-procedural
-tags: [procedural, algorithm]
+tags: [procedural, algorithm, favorite]
 ---
 
 - Deep dive in WFC (Wave Function Collapse)
