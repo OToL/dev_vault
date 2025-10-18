@@ -229,12 +229,23 @@
                 "windows"
             ]
         },
+{
+            "title": "Balena Etcher",
+            "url": "https://etcher.balena.io",
+            "description": "Bootable USB image creation.",
+            "tags": [
+                "utility",
+                "favorite",
+                "macos"
+            ]
+        },
         {
             "title": "Rufus",
             "url": "https://rufus.ie/",
             "description": "Bootable USB image creation.",
             "tags": [
                 "utility",
+                "favorite",
                 "windows"
             ]
         },
