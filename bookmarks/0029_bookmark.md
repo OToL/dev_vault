@@ -1,7 +1,7 @@
 ---
 title: Building a Flexible Inventory System in Unreal Engine 5
 url: https://www.spongehammer.com/unreal-engine-5-inventory-system-cpp-guide/
-tags: [ue5, c++]
+tags: [ue5, c++, gameplay]
 ---
 
 - Explain how to design a game Inventory using C++ in UE5
