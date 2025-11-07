@@ -1,32 +1,92 @@
 {
     "tools": [
         {
-            "title": "Mesh Optimizer",
-            "url": "https://meshoptimizer.org/",
-            "description": "Opimize meshes for rendering (e.g. LOD, clustering, etc.) and storage.",
-            "tags": [
-                "gamedev",
-                "favorite",
-                "utility"
-            ]
-        },
-        {
-            "title": "Feedly",
-            "url": "https://feedly.com/",
-            "description": "Feed reader.",
-            "tags": [
-                "favorite",
-                "articles",
-                "web"
-            ]
-        },
-        {
-            "title": "Bulletty",
-            "url": "https://github.com/CrociDB/bulletty",
-            "description": "TUI feed reader.",
+            "title": "Dependencies",
+            "url": "https://github.com/lucasg/Dependencies",
+            "description": "Bindary dependency walker",
             "tags": [
                 "utility",
-                "articles",
+                "favorite",
+                "windows"
+            ]
+        },
+        {
+            "title": "System Informer",
+            "url": "https://systeminformer.sourceforge.io",
+            "description": "Windows Task Manager replacement",
+            "tags": [
+                "utility",
+                "favorite",
+                "windows"
+            ]
+        },
+        {
+            "title": "VLC",
+            "url": "https://www.videolan.org/vlc/",
+            "description": "Video player.",
+            "tags": [
+                "utility",
+                "favorite",
+                "linux",
+                "macos",
+                "windows"
+            ]
+        },
+        {
+            "title": "7-zip",
+            "url": "https://7-zip.org/",
+            "description": "Compressor.",
+            "tags": [
+                "utility",
+                "favorite",
+                "linux",
+                "macos",
+                "windows"
+            ]
+        },
+        {
+            "title": "Steam",
+            "url": "https://store.steampowered.com",
+            "description": "Gaming platform.",
+            "tags": [
+                "utility",
+                "favorite",
+                "linux",
+                "macos",
+                "windows"
+            ]
+        },
+        {
+            "title": "epic",
+            "url": "https://www.epicgames.com",
+            "description": "Gaming and Development platform.",
+            "tags": [
+                "utility",
+                "favorite",
+                "linux",
+                "macos",
+                "windows"
+            ]
+        },
+        {
+            "title": "Spotify",
+            "url": "https://www.spotify.com/",
+            "description": "Music streaming.",
+            "tags": [
+                "utility",
+                "favorite",
+                "linux",
+                "macos",
+                "windows"
+            ]
+        },
+        {
+            "title": "Chrome",
+            "url": "https://www.chrome.com/",
+            "description": "Web browser.",
+            "tags": [
+                "utility",
+                "favorite",
                 "linux",
                 "macos",
                 "windows"
@@ -162,7 +222,7 @@
             ]
         },
         {
-            "title": "Sys Internals",
+            "title": "Windows Sysinternals",
             "url": "https://learn.microsoft.com/en-us/sysinternals/",
             "description": "Suit of Windows system tools (e.g. ProcMon, DLL dependency walker, etc.).",
             "tags": [
@@ -239,23 +299,12 @@
                 "windows"
             ]
         },
-{
-            "title": "Balena Etcher",
-            "url": "https://etcher.balena.io",
-            "description": "Bootable USB image creation.",
-            "tags": [
-                "utility",
-                "favorite",
-                "macos"
-            ]
-        },
         {
             "title": "Rufus",
             "url": "https://rufus.ie/",
             "description": "Bootable USB image creation.",
             "tags": [
                 "utility",
-                "favorite",
                 "windows"
             ]
         },
@@ -550,7 +599,6 @@
             "url": "https://www.blender.org/",
             "description": "3D creation software.",
             "tags": [
-                "gamedev",
                 "dcc",
                 "windows",
                 "linux",
