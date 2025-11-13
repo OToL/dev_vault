@@ -300,6 +300,15 @@
             ]
         },
         {
+            "title": "Etcher",
+            "url": "https://etcher.balena.io",
+            "description": "Bootable USB image creation.",
+            "tags": [
+                "utility",
+                "macos"
+            ]
+        },
+        {
             "title": "Rufus",
             "url": "https://rufus.ie/",
             "description": "Bootable USB image creation.",
@@ -539,9 +548,7 @@
                 "utility",
                 "profiling",
                 "cpu",
-                "windows",
-                "linux",
-                "macos"
+                "windows"
             ]
         },
         {
