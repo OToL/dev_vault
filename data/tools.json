@@ -1,6 +1,16 @@
 {
     "tools": [
         {
+            "title": "Demos calculator",
+            "url": "https://www.desmos.com/calculator",
+            "description": "Live formular plotting",
+            "tags": [
+                "utility",
+                "favorite",
+                "web"
+            ]
+        },
+        {
             "title": "Dependencies",
             "url": "https://github.com/lucasg/Dependencies",
             "description": "Bindary dependency walker",
