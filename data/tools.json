@@ -288,7 +288,31 @@
         {
             "title": "Sharpmake",
             "url": "https://github.com/ubisoft/Sharpmake/",
-            "description": "Cross-platform C++ build system from Ubisoft.",
+            "description": "Cross-platform, C# based, C++ build system from Ubisoft.",
+            "tags": [
+                "build",
+                "utility",
+                "linux",
+                "macos",
+                "windows"
+            ]
+        },
+        {
+            "title": "Premake",
+            "url": "https://premake.github.io",
+            "description": "Cross-platform, lua based, build system.",
+            "tags": [
+                "build",
+                "utility",
+                "linux",
+                "macos",
+                "windows"
+            ]
+        },
+        {
+            "title": "Genie",
+            "url": "https://github.com/bkaradzic/GENie",
+            "description": "Cross-platform, lua based, build system.",
             "tags": [
                 "build",
                 "utility",
