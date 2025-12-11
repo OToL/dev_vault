@@ -1,7 +1,7 @@
 ---
 title: Spatial Hashing for raytraced ambient occlusion
 url: https://interplayoflight.wordpress.com/2025/11/23/spatial-hashing-for-raytraced-ambient-occlusion/
-tags: [grahpics, data-structure, favorite]
+tags: [graphics, data-structure, favorite]
 ---
 
 - Traditional Ambient Occlusion is often noisy (i.e. requires filtering) and requires inefficient memory accesses (e.g. 3D textures)
