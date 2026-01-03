@@ -1,6 +1,15 @@
 {
     "tools": [
         {
+            "title": "Obsidian",
+            "url": "https://obsidian.md",
+            "description": "Markdown-based notes taking app",
+            "tags": [
+                "utility",
+                "favorite"
+            ]
+        },
+        {
             "title": "Demos calculator",
             "url": "https://www.desmos.com/calculator",
             "description": "Live formular plotting",
