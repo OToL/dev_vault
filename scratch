@@ -1,0 +1,6 @@
+
+this	0x00000206ada3f560 {m_MyThreading={...} m_Allocator=ue::C_Ptr {m_Name=0x00000206f4a40868 "T_AllocatorWrapperImpl" m_Allocator=0x00000206f4a40930 {m_TotalAllocCount=...} ...} ...}	ue::sys::memorymanager::C_SmallObjectAllocator<ue::sys::memorymanager::C_ExactSizesIndexPolicy,ue::S_SingleThreadedPolicy,ue::sys::memorymanager::I_Allocator,ue::C_Ptr<ue::sys::memorymanager::I_Allocator>,ue::C_Ptr<ue::sys::memorymanager::I_Allocator>> * {ue::sys::memorymanager::C_SmallObjectAllocator<ue::sys::memorymanager::C_ExactSizesIndexPolicy,ue::S_SingleThreadedPolicy,ue::I_BasicAllocator,ue::C_Ptr<ue::sys::memorymanager::I_Allocator>,ue::C_Ptr<ue::sys::memorymanager::I_Allocator>>}
+
+[0]	{m_Data=0x00000206ef5bac50 "" m_FirstAvailableBlock=512 m_AvailableBlocks=0 }	ue::sys::memorymanager::C_Chunk<ue::C_Ptr<ue::sys::memorymanager::I_Allocator>>
+[1]	{m_Data=0x00000254ee0f8df0 "" m_FirstAvailableBlock=150 m_AvailableBlocks=362 }	ue::sys::memorymanager::C_Chunk<ue::C_Ptr<ue::sys::memorymanager::I_Allocator>>
+
