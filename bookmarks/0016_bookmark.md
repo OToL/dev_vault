@@ -1,7 +1,7 @@
 ---
 title: How to Think About GPUs
 url: https://jax-ml.github.io/scaling-book/gpus/
-tags: [graphics, llm]
+tags: [graphics, ml]
 ---
 
 - Good GPU and TPU architectures refresher

@@ -1,7 +1,7 @@
 ---
 title: Turn Claude Code into Your Own INCREDIBLE UI Designer
 url: https://www.youtube.com/watch?v=xOO8Wt_i72s
-tags: [llm, workflow]
+tags: [ml, workflow]
 ---
 
 - Explains how to setup a agentic workflow and give the capability for the model to visualize & validate what it generates thanks to Playwright MCP.
