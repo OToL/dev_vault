@@ -1,5 +1,15 @@
 {
     "tools": [
+{
+            "title": "Vulkan Hardware Database",
+            "url": "https://vulkan.gpuinfo.org/listdevices.php",
+            "description": "Large database which can be filtered/queried to investigate Vulkan hardware, features and extensions support",
+            "tags": [
+                "utility",
+                "graphics",
+                "favorite"
+            ]
+        },
         {
             "title": "Obsidian",
             "url": "https://obsidian.md",
