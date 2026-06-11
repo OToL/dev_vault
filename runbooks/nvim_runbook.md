@@ -9,7 +9,7 @@ date: 2026-06-06
 - Package managers
     - Windows - Chocolatery
     - MacOs - Brew
-- Nvim
+- Nvim Installation
     - [Standalone Installer](https://github.com/neovim/neovim/releases)
     - Package manager
 - Dependencies
