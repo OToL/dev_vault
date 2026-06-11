@@ -55,6 +55,11 @@
     line-height: 1.6;
 }
 
+.article-content li > ul,
+.article-content li > ol {
+    margin: 0.1rem 0 !important;
+}
+
 /* Style code blocks with better appearance */
 .article-content code {
     background: #1e293b !important;
