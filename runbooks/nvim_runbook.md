@@ -23,19 +23,19 @@ date: 2026-06-06
 
 ## Insert Mode
 
-- ctrl+<key>: Display the actual key
+- ctrl+v \<key\>: Display the actual key
 
 # Grep
 
-- <leader>sg: Telescope workspace grep
+- \<leader\>sg: Telescope workspace grep
 - [Telescope] Ctrl+i: Search in specific file (--iglob)
 
 # Quick Fix
 
 - Quick fix command:
-    - cdo <cmd>: apply a command to each quick fix line
-    - cfdo <cmd>: apply a command to once per file of the quick fix entries
-- <qfix cmd> <cmd1> | <cmd2> | ... : chain commands for each cdo/cfdo execution
+    - cdo \<cmd\>: apply a command to each quick fix line
+    - cfdo \<cmd\>: apply a command to once per file of the quick fix entries
+- \<qfix cmd\> \<cmd1\> | \<cmd2\> | ... : chain commands for each cdo/cfdo execution
     ```
     :cdo s/aa/bb/g | update | bd
     ```
