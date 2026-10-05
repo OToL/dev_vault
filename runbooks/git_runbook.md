@@ -80,6 +80,12 @@ git status
 
 -- List commits to the depot
 git log
+
+-- Explicitly remove a file
+git rm <path>
+
+-- Explicitly remove a file but keep it locally
+git rm --cached <path>
 ```
 
 # Sub Modules
@@ -93,6 +99,11 @@ git submodule add <url> <dest path>
 
 -- destination depot/branch can be specified e.g. git push origin master
 git push
+```
+## Remove sub-module
+
+```
+git rm -r <local_path>
 ```
 
 ## Clone a depot and get submodules at the same time
