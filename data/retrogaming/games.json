@@ -4,25 +4,25 @@
             "name": "Resident Evil 4",
             "platform": "NGC",
             "owned": true,
-            "comments": "Includes Occarina of Time Master Quest"
+            "comments": ""
         },
         {
             "name": "Star Wars Rogue Leader",
             "platform": "NGC",
             "owned": true,
-            "comments": "Includes Occarina of Time Master Quest"
+            "comments": ""
         },
         {
             "name": "NBA 2K3",
             "platform": "NGC",
             "owned": true,
-            "comments": "Includes Occarina of Time Master Quest"
+            "comments": ""
         },
         {
             "name": "Splinter Cell",
             "platform": "NGC",
             "owned": true,
-            "comments": "Includes Occarina of Time Master Quest"
+            "comments": ""
         },
         {
             "name": "Zelda: The Wind Waker - Limited Edition",
@@ -140,25 +140,25 @@
         },
         {
             "name": "Zelda: A link Between Worlds",
-            "platform": "NDS",
+            "platform": "3DS",
             "owned": true,
             "comments": ""
         },
         {
             "name": "Nintendogs + Cats",
-            "platform": "NDS",
+            "platform": "3DS",
             "owned": true,
             "comments": ""
         },
         {
             "name": "Mario & Luigi Dream Team Bros",
-            "platform": "NDS",
+            "platform": "3DS",
             "owned": true,
             "comments": ""
         },
         {
             "name": "Luigi's Mansion",
-            "platform": "NDS",
+            "platform": "3DS",
             "owned": true,
             "comments": ""
         },
@@ -170,25 +170,25 @@
         },
         {
             "name": "Super Mario 3D World",
-            "platform": "NDS",
+            "platform": "3DS",
             "owned": true,
             "comments": ""
         },
         {
             "name": "Zelda: Majora's Mask 3D",
-            "platform": "NDS",
+            "platform": "3DS",
             "owned": true,
             "comments": ""
         },
         {
             "name": "Donkey Kong Country Returns",
-            "platform": "NDS",
+            "platform": "3DS",
             "owned": true,
             "comments": ""
         },
         {
             "name": "Sushi Striker",
-            "platform": "NDS",
+            "platform": "3DS",
             "owned": true,
             "comments": ""
         },
@@ -200,13 +200,13 @@
         },
         {
             "name": "Lego The Hobbit",
-            "platform": "NDS",
+            "platform": "3DS",
             "owned": true,
             "comments": ""
         },
         {
             "name": "Zelda: Ocarina of Time 3D",
-            "platform": "NDS",
+            "platform": "3DS",
             "owned": true,
             "comments": ""
         },
@@ -326,25 +326,25 @@
         },
         {
             "name": "Mega Man 2",
-            "platform": "SNES",
+            "platform": "NES",
             "owned": true,
             "comments": "Box"
         },
         {
             "name": "Super Mario",
-            "platform": "SNES",
+            "platform": "NES",
             "owned": true,
             "comments": ""
         },
         {
             "name": "Super Mario 2",
-            "platform": "SNES",
+            "platform": "NES",
             "owned": true,
             "comments": "Box"
         },
         {
             "name": "Super Mario 3",
-            "platform": "SNES",
+            "platform": "NES",
             "owned": true,
             "comments": "Box"
         },
@@ -356,211 +356,211 @@
         },
         {
             "name": "Olympics",
-            "platform": "snes",
+            "platform": "SNES",
             "owned": true,
             "comments": ""
         },
         {
             "name": "Street Racer",
-            "platform": "snes",
+            "platform": "SNES",
             "owned": true,
             "comments": ""
         },
         {
             "name": "Super Mario World",
-            "platform": "snes",
+            "platform": "SNES",
             "owned": true,
             "comments": ""
         },
         {
             "name": "Tiny Toon",
-            "platform": "snes",
+            "platform": "SNES",
             "owned": true,
             "comments": ""
         },
         {
             "name": "Axelay",
-            "platform": "snes",
+            "platform": "SNES",
             "owned": true,
             "comments": ""
         },
         {
             "name": "Lucky Luke",
-            "platform": "snes",
+            "platform": "SNES",
             "owned": true,
             "comments": ""
         },
         {
             "name": "The Magical Quest",
-            "platform": "snes",
+            "platform": "SNES",
             "owned": true,
             "comments": ""
         },
         {
             "name": "Mister Nutz",
-            "platform": "snes",
+            "platform": "SNES",
             "owned": true,
             "comments": ""
         },
         {
             "name": "NHL 95",
-            "platform": "snes",
+            "platform": "SNES",
             "owned": true,
             "comments": ""
         },
         {
             "name": "Nigel Mansell's WC",
-            "platform": "snes",
+            "platform": "SNES",
             "owned": true,
             "comments": ""
         },
         {
             "name": "Lemings",
-            "platform": "snes",
+            "platform": "SNES",
             "owned": true,
             "comments": ""
         },
         {
             "name": "F-Zero",
-            "platform": "snes",
+            "platform": "SNES",
             "owned": true,
             "comments": ""
         },
         {
             "name": "Street Fighter 2",
-            "platform": "snes",
+            "platform": "SNES",
             "owned": true,
             "comments": ""
         },
         {
             "name": "Mario Paint",
-            "platform": "snes",
+            "platform": "SNES",
             "owned": true,
             "comments": ""
         },
         {
             "name": "Super Mario All Star",
-            "platform": "snes",
+            "platform": "SNES",
             "owned": true,
             "comments": ""
         },
         {
             "name": "International Super Star Soccer Deluxe",
-            "platform": "snes",
+            "platform": "SNES",
             "owned": true,
             "comments": ""
         },
         {
             "name": "Krusty Super Fun House",
-            "platform": "snes",
+            "platform": "SNES",
             "owned": true,
             "comments": ""
         },
         {
             "name": "F1 Pole Position 2",
-            "platform": "snes",
+            "platform": "SNES",
             "owned": true,
             "comments": ""
         },
         {
             "name": "Super R-Type",
-            "platform": "snes",
+            "platform": "SNES",
             "owned": true,
             "comments": ""
         },
         {
             "name": "Soccer Shootout",
-            "platform": "snes",
+            "platform": "SNES",
             "owned": true,
             "comments": ""
         },
         {
             "name": "Tintin au Tibet",
-            "platform": "snes",
+            "platform": "SNES",
             "owned": true,
             "comments": ""
         },
         {
             "name": "Starwing",
-            "platform": "snes",
+            "platform": "SNES",
             "owned": true,
             "comments": ""
         },
         {
             "name": "Zelda: Link To The Past",
-            "platform": "snes",
+            "platform": "SNES",
             "owned": true,
             "comments": ""
         },
         {
             "name": "Le Roi Lion",
-            "platform": "snes",
+            "platform": "SNES",
             "owned": true,
             "comments": ""
         },
         {
             "name": "Sim City",
-            "platform": "snes",
+            "platform": "SNES",
             "owned": true,
             "comments": ""
         },
         {
             "name": "Populous",
-            "platform": "snes",
+            "platform": "SNES",
             "owned": true,
             "comments": ""
         },
         {
             "name": "The Chess Master",
-            "platform": "snes",
+            "platform": "SNES",
             "owned": true,
             "comments": ""
         },
         {
             "name": "Cool Spot",
-            "platform": "snes",
+            "platform": "SNES",
             "owned": true,
             "comments": ""
         },
         {
             "name": "NHLPA Hockey 93",
-            "platform": "snes",
+            "platform": "SNES",
             "owned": true,
             "comments": ""
         },
         {
             "name": "Doom",
-            "platform": "snes",
+            "platform": "SNES",
             "owned": true,
             "comments": ""
         },
         {
             "name": "Super Soccer",
-            "platform": "snes",
+            "platform": "SNES",
             "owned": true,
             "comments": ""
         },
         {
             "name": "Fifa International Soccer",
-            "platform": "snes",
+            "platform": "SNES",
             "owned": true,
             "comments": ""
         },
         {
             "name": "Adventure Island",
-            "platform": "snes",
+            "platform": "SNES",
             "owned": true,
             "comments": ""
         },
         {
             "name": "Super Star Soccer",
-            "platform": "snes",
+            "platform": "SNES",
             "owned": true,
             "comments": ""
         },
         {
             "name": "kickoff 3",
-            "platform": "snes",
+            "platform": "SNES",
             "owned": true,
             "comments": ""
         },
