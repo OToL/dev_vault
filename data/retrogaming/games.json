@@ -1,0 +1,730 @@
+{
+    "games": [
+        {
+            "name": "Resident Evil 4",
+            "platform": "NGC",
+            "owned": true,
+            "comments": "Includes Occarina of Time Master Quest"
+        },
+        {
+            "name": "Star Wars Rogue Leader",
+            "platform": "NGC",
+            "owned": true,
+            "comments": "Includes Occarina of Time Master Quest"
+        },
+        {
+            "name": "NBA 2K3",
+            "platform": "NGC",
+            "owned": true,
+            "comments": "Includes Occarina of Time Master Quest"
+        },
+        {
+            "name": "Splinter Cell",
+            "platform": "NGC",
+            "owned": true,
+            "comments": "Includes Occarina of Time Master Quest"
+        },
+        {
+            "name": "Zelda: The Wind Waker - Limited Edition",
+            "platform": "NGC",
+            "owned": true,
+            "comments": "Includes Occarina of Time Master Quest"
+        },
+        {
+            "name": "Tony Hawk's Underground 2",
+            "platform": "NGC",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Beach Spikers",
+            "platform": "NGC",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Mario Smash Football",
+            "platform": "NGC",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Super Bust A-Move All Stars",
+            "platform": "NGC",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Naruto 2",
+            "platform": "NGC",
+            "owned": true,
+            "comments": "Japanese version"
+        },
+        {
+            "name": "Virtua Racing",
+            "platform": "Mega Drive",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Super Thunder Black",
+            "platform": "Mega Drive",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Alien Storm",
+            "platform": "Mega Drive",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Super Monaco",
+            "platform": "Mega Drive",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Nigel Mansell's WC",
+            "platform": "Mega Drive",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Indy Car Nigel Mansell",
+            "platform": "Mega Drive",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Desert Strike",
+            "platform": "Mega Drive",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Sonic & Knuckles",
+            "platform": "Mega Drive",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Sonic 3",
+            "platform": "Mega Drive",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Sonic 2",
+            "platform": "Mega Drive",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "World Of Illusion",
+            "platform": "Mega Drive",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Aladin",
+            "platform": "Mega Drive",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Zelda: Spirit Tracks",
+            "platform": "NDS",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Zelda: A link Between Worlds",
+            "platform": "NDS",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Nintendogs + Cats",
+            "platform": "NDS",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Mario & Luigi Dream Team Bros",
+            "platform": "NDS",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Luigi's Mansion",
+            "platform": "NDS",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Super Princess Peach",
+            "platform": "NDS",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Super Mario 3D World",
+            "platform": "NDS",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Zelda: Majora's Mask 3D",
+            "platform": "NDS",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Donkey Kong Country Returns",
+            "platform": "NDS",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Sushi Striker",
+            "platform": "NDS",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Viva Pinata",
+            "platform": "NDS",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Lego The Hobbit",
+            "platform": "NDS",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Zelda: Ocarina of Time 3D",
+            "platform": "NDS",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Teken",
+            "platform": "GBA",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Driver",
+            "platform": "GameBoy",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Bomberman 64",
+            "platform": "N64",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Mario 64",
+            "platform": "N64",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Castlevania 64",
+            "platform": "N64",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "WCW nWO Revenge",
+            "platform": "N64",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "180 Snowboarding",
+            "platform": "N64",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Mario Kart 64",
+            "platform": "N64",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Zelda: Ocarina Of Time",
+            "platform": "N64",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "GoldenEye 007",
+            "platform": "N64",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Killer Instinct",
+            "platform": "N64",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Ghost'N Goblins",
+            "platform": "NES",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Tenage Mutant Hero Turtles 2",
+            "platform": "NES",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Probotector",
+            "platform": "NES",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Tetris",
+            "platform": "NES",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Kid Icarus",
+            "platform": "NES",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Parodius",
+            "platform": "NES",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Duck Hunt",
+            "platform": "NES",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Punch-Out",
+            "platform": "NES",
+            "owned": true,
+            "comments": "Box"
+        },
+        {
+            "name": "Mega Man 2",
+            "platform": "SNES",
+            "owned": true,
+            "comments": "Box"
+        },
+        {
+            "name": "Super Mario",
+            "platform": "SNES",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Super Mario 2",
+            "platform": "SNES",
+            "owned": true,
+            "comments": "Box"
+        },
+        {
+            "name": "Super Mario 3",
+            "platform": "SNES",
+            "owned": true,
+            "comments": "Box"
+        },
+        {
+            "name": "Super Punch-Out",
+            "platform": "SNES",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Olympics",
+            "platform": "snes",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Street Racer",
+            "platform": "snes",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Super Mario World",
+            "platform": "snes",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Tiny Toon",
+            "platform": "snes",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Axelay",
+            "platform": "snes",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Lucky Luke",
+            "platform": "snes",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "The Magical Quest",
+            "platform": "snes",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Mister Nutz",
+            "platform": "snes",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "NHL 95",
+            "platform": "snes",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Nigel Mansell's WC",
+            "platform": "snes",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Lemings",
+            "platform": "snes",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "F-Zero",
+            "platform": "snes",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Street Fighter 2",
+            "platform": "snes",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Mario Paint",
+            "platform": "snes",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Super Mario All Star",
+            "platform": "snes",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "International Super Star Soccer Deluxe",
+            "platform": "snes",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Krusty Super Fun House",
+            "platform": "snes",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "F1 Pole Position 2",
+            "platform": "snes",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Super R-Type",
+            "platform": "snes",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Soccer Shootout",
+            "platform": "snes",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Tintin au Tibet",
+            "platform": "snes",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Starwing",
+            "platform": "snes",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Zelda: Link To The Past",
+            "platform": "snes",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Le Roi Lion",
+            "platform": "snes",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Sim City",
+            "platform": "snes",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Populous",
+            "platform": "snes",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "The Chess Master",
+            "platform": "snes",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Cool Spot",
+            "platform": "snes",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "NHLPA Hockey 93",
+            "platform": "snes",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Doom",
+            "platform": "snes",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Super Soccer",
+            "platform": "snes",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Fifa International Soccer",
+            "platform": "snes",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Adventure Island",
+            "platform": "snes",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Super Star Soccer",
+            "platform": "snes",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "kickoff 3",
+            "platform": "snes",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Robocop 3",
+            "platform": "SNES",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Super Tennis",
+            "platform": "SNES",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Indy Car",
+            "platform": "SNES",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Spirou",
+            "platform": "SNES",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Toy Story",
+            "platform": "SNES",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Streets of Rage 2",
+            "platform": "Mega Drive",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Super Metroid",
+            "platform": "SNES",
+            "owned": false,
+            "comments": ""
+        },
+        {
+            "name": "Donkey Kong Country",
+            "platform": "SNES",
+            "owned": false,
+            "comments": ""
+        },
+        {
+            "name": "Donkey Kong Country 2",
+            "platform": "SNES",
+            "owned": false,
+            "comments": ""
+        },
+        {
+            "name": "Donkey Kong Country 3",
+            "platform": "SNES",
+            "owned": false,
+            "comments": ""
+        },
+        {
+            "name": "Yoshi's Island",
+            "platform": "SNES",
+            "owned": false,
+            "comments": ""
+        },
+        {
+            "name": "Super Mario Kart",
+            "platform": "SNES",
+            "owned": false,
+            "comments": ""
+        },
+        {
+            "name": "Secret of Mana",
+            "platform": "SNES",
+            "owned": false,
+            "comments": ""
+        },
+        {
+            "name": "Contra III",
+            "platform": "SNES",
+            "owned": false,
+            "comments": ""
+        },
+        {
+            "name": "Turtles in Time",
+            "platform": "SNES",
+            "owned": false,
+            "comments": ""
+        },
+        {
+            "name": "Star Fox 64",
+            "platform": "N64",
+            "owned": false,
+            "comments": ""
+        },
+        {
+            "name": "Banjo-Kazooie",
+            "platform": "N64",
+            "owned": false,
+            "comments": ""
+        },
+        {
+            "name": "Perfect Dark",
+            "platform": "N64",
+            "owned": false,
+            "comments": ""
+        },
+        {
+            "name": "Zelda: Majora's Mask",
+            "platform": "N64",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Mario Party 2",
+            "platform": "N64",
+            "owned": false,
+            "comments": ""
+        },
+        {
+            "name": "Soulcalibur",
+            "platform": "Dreamcast",
+            "owned": false,
+            "comments": ""
+        },
+        {
+            "name": "Jet Set Radio",
+            "platform": "Dreamcast",
+            "owned": false,
+            "comments": ""
+        },
+        {
+            "name": "Crazy Taxi",
+            "platform": "Dreamcast",
+            "owned": false,
+            "comments": ""
+        },
+        {
+            "name": "Shenmue",
+            "platform": "Dreamcast",
+            "owned": false,
+            "comments": ""
+        },
+        {
+            "name": "Metroid Prime",
+            "platform": "NGC",
+            "owned": false,
+            "comments": ""
+        },
+        {
+            "name": "Super Smash Bros. Melee",
+            "platform": "NGC",
+            "owned": false,
+            "comments": ""
+        },
+        {
+            "name": "Mario Kart Double Dash",
+            "platform": "NGC",
+            "owned": true,
+            "comments": ""
+        }
+    ]
+}

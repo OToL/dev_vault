@@ -27,6 +27,7 @@ npm install
 - **Bookmarks** (`bookmarks/*.md`): Individual markdown files with frontmatter containing title, URL, and tags
 - **Runbooks** (`runbooks/*.md`): Technical documentation and procedures with frontmatter and markdown content
 - **Tools** (`data/tools.json`): JSON file containing development tools and utilities data
+- **Retrogaming** (`data/retrogaming/consoles.json`, `data/retrogaming/games.json`): JSON files listing consoles and games (owned or wanted), shown as sortable/filterable tables in two tabs on `retrogaming.md` (logic in `js/retrogaming.js`)
 
 ## Template System
 - **Layouts**: Located in `includes/` directory
@@ -61,11 +62,22 @@ date: 2025-01-15
 ---
 ```
 
+**Retrogaming entries:**
+```json
+// data/retrogaming/consoles.json -> "consoles" array
+{ "name": "Super Nintendo", "owned": true, "comments": "PAL, 2 pads" }
+
+// data/retrogaming/games.json -> "games" array
+// "platform" should match a console name exactly so the Platform filter groups games correctly
+{ "name": "Chrono Trigger", "platform": "Super Nintendo", "owned": false, "comments": "" }
+```
+
 ## Content Workflow
 1. Add new bookmarks as numbered markdown files in `bookmarks/` (e.g., `0014_bookmark.md`)
 2. Add new runbooks in `runbooks/` directory
-3. Build process automatically generates counts and data files for frontend consumption
-4. Deploy triggers on pushes to master branch via GitHub Actions
+3. Add new consoles/games as entries in `data/retrogaming/consoles.json` / `data/retrogaming/games.json` (`owned: false` = wanted)
+4. Build process automatically generates counts and data files for frontend consumption
+5. Deploy triggers on pushes to master branch via GitHub Actions
 
 # Development Notes
 - Site uses Nunjucks templating engine
