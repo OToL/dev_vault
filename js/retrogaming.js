@@ -9,6 +9,28 @@ function escapeHtml(text) {
         .replace(/"/g, '&quot;');
 }
 
+// Lowercase, remove accents & punctuation: "Pokémon: Red!" -> "pokemon red"
+function normalizeText(text) {
+    return String(text ?? '')
+        .toLowerCase()
+        .normalize('NFD').replace(/[̀-ͯ]/g, '')
+        .replace(/[^a-z0-9 ]/g, ' ');
+}
+
+// Fuzzy match: every word of the search must have its letters appear, in order, in the text
+// e.g. "zelda oot" matches "Zelda: Ocarina Of Time", "mk64" matches "Mario Kart 64"
+function fuzzyMatch(search, text) {
+    const target = normalizeText(text).replace(/ /g, '');
+    return normalizeText(search).split(' ').filter(Boolean).every(word => {
+        let position = 0;
+        for (const letter of word) {
+            position = target.indexOf(letter, position) + 1;
+            if (position === 0) return false;
+        }
+        return true;
+    });
+}
+
 // Sortable & filterable table built from a JSON data file
 class DataTable {
     constructor(config) {
@@ -16,6 +38,7 @@ class DataTable {
         this.items = [];
         this.sort = { key: config.columns[0].key, ascending: true };
         this.filters = {};
+        this.search = '';
 
         this.init();
     }
@@ -33,6 +56,15 @@ class DataTable {
     }
 
     setupFilters() {
+        // Optional search box, matched against the "searchKey" column
+        const searchInput = this.config.searchId && document.getElementById(this.config.searchId);
+        if (searchInput) {
+            searchInput.addEventListener('input', () => {
+                this.search = searchInput.value;
+                this.render();
+            });
+        }
+
         this.config.columns.filter(column => column.filterId).forEach(column => {
             const select = document.getElementById(column.filterId);
             if (!select) return;
@@ -58,6 +90,8 @@ class DataTable {
     }
 
     matchesFilters(item) {
+        if (this.search && !fuzzyMatch(this.search, item[this.config.searchKey])) return false;
+
         return this.config.columns.every(column => {
             const filter = this.filters[column.key];
             if (!filter) return true;
@@ -169,6 +203,8 @@ document.addEventListener('DOMContentLoaded', function() {
         dataKey: 'games',
         tableId: 'gamesTable',
         noResultsId: 'gamesNoResults',
+        searchId: 'gamesSearch',
+        searchKey: 'name',
         columns: [
             { key: 'name', label: 'Game', sortable: true, width: 'fit' },
             { key: 'platform', label: 'Platform', sortable: true, filterId: 'gamesPlatformFilter', width: '20%' },

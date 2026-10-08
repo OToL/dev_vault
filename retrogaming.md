@@ -26,6 +26,9 @@ title: Retrogaming
 
 <div class="retro-panel" id="games-panel">
     <div class="retro-filters">
+        <label>Search
+            <input type="search" id="gamesSearch" placeholder="e.g. zelda oot">
+        </label>
         <label>Platform
             <select id="gamesPlatformFilter"></select>
         </label>

@@ -43,7 +43,8 @@
     color: #1e293b;
 }
 
-.retro-filters select {
+.retro-filters select,
+.retro-filters input {
     padding: 0.4rem 0.75rem;
     border: 2px solid #e2e8f0;
     border-radius: 8px;
@@ -51,7 +52,12 @@
     background: white;
 }
 
-.retro-filters select:focus {
+.retro-filters input {
+    width: 220px;
+}
+
+.retro-filters select:focus,
+.retro-filters input:focus {
     outline: none;
     border-color: #2563eb;
 }
