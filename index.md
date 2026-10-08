@@ -33,6 +33,14 @@ A curated collection of interesing tools, utilities and bookmarks I came accros 
             <span class="stat runbooks-stat">Loading...</span>
         </div>
     </div>
+
+    <div class="section-card">
+        <h3>🕹️ <a href="./retrogaming/">Retrogaming</a></h3>
+        <p>Retro consoles and games I own or would like to own, with notes on each of them.</p>
+        <div class="section-stats">
+            <span class="stat retrogaming-stat">Loading...</span>
+        </div>
+    </div>
 </div>
 
 <script type="module" src="./js/homepage.js"></script>

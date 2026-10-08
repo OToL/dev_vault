@@ -1,0 +1,132 @@
+/* Retrogaming tabs */
+.retro-tabs {
+    display: flex;
+    gap: 0.5rem;
+    border-bottom: 2px solid #e2e8f0;
+    margin-bottom: 1.5rem;
+}
+
+.retro-tab {
+    background: none;
+    border: none;
+    border-bottom: 3px solid transparent;
+    margin-bottom: -2px;
+    padding: 0.75rem 1.25rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #64748b;
+    cursor: pointer;
+}
+
+.retro-tab:hover {
+    color: #1e293b;
+}
+
+.retro-tab.active {
+    color: #2563eb;
+    border-bottom-color: #2563eb;
+}
+
+/* Retrogaming filters */
+.retro-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.retro-filters label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 600;
+    color: #1e293b;
+}
+
+.retro-filters select {
+    padding: 0.4rem 0.75rem;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    background: white;
+}
+
+.retro-filters select:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+/* Retrogaming tables */
+.retro-table-wrapper {
+    overflow-x: auto;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+.retro-table {
+    width: 100%;
+    min-width: 600px; /* below this width the table scrolls instead of squashing columns */
+    border-collapse: collapse;
+}
+
+/* Column sized to its longest value, plus some breathing room */
+.retro-table .cell-fit {
+    white-space: nowrap;
+    padding-right: 6rem;
+}
+
+.retro-table th,
+.retro-table td {
+    padding: 0.75rem 1rem;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.retro-table th {
+    background: #f8fafc;
+    color: #1e293b;
+    white-space: nowrap;
+    user-select: none;
+}
+
+.retro-table th.sortable {
+    cursor: pointer;
+}
+
+.retro-table th.sortable:hover {
+    color: #2563eb;
+}
+
+.retro-table tbody tr:nth-child(even) {
+    background: #f8fafc;
+}
+
+.retro-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.retro-table td {
+    color: #475569;
+    overflow-wrap: break-word;
+}
+
+/* Owned / Wanted status (display only, value comes from the JSON file) */
+.status-pill {
+    display: inline-block;
+    padding: 0.2rem 0.65rem;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.status-pill.owned {
+    background: #dcfce7;
+    color: #166534;
+}
+
+.status-pill.wanted {
+    background: #f1f5f9;
+    color: #64748b;
+}

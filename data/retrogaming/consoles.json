@@ -1,0 +1,75 @@
+{
+    "consoles": [
+        {
+            "name": "SNES",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "NES",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "N64",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "NGC",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "GBA",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "3DSXL",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Dreamcast",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "PSP",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "PS3",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Mega Drive",
+            "owned": true,
+            "comments": ""
+        },
+        {
+            "name": "Game Gear",
+            "owned": false,
+            "comments": ""
+        },
+        {
+            "name": "GameBoy SP",
+            "owned": false,
+            "comments": ""
+        },
+        {
+            "name": "Neo Geo AES+",
+            "owned": false,
+            "comments": "Delivered next year"
+        },
+        {
+            "name": "NeoGeo Pocket",
+            "owned": false,
+            "comments": ""
+        }
+
+    ]
+}
