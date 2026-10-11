@@ -19,16 +19,36 @@ date: 2026-06-06
     - ripgrep - via Package Manager
 - [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)
 
+# Basic Shortcuts
+
 # Misc
+
+## Normal Mode
+
+- CTRL+q: add a cursor
 
 ## Insert Mode
 
-- ctrl+v \<key\>: Display the actual key
+- CTL+v \<key\>: Display the actual key
+
+## Visual Mode
+
+- an : visually select outer node 
+- in : visually select inner node 
 
 # Grep
 
 - \<leader\>sg: Telescope workspace grep
 - [Telescope] Ctrl+i: Search in specific file (--iglob)
+
+# Marks
+
+- m; : toggle mark on current line
+- m\<char\>: set mark \<char\> (a-z: file, A-Z: global)
+- '\<char\>: go to mark \<char\>
+- ]b / [b: next/previous mark in buffer
+- dm / dM: delete marks on current line / in buffer
+- \<leader\>sm: Telescope marks
 
 # Quick Fix
 
